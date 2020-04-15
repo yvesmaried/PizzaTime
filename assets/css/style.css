@@ -1,15 +1,15 @@
-#fullsite {
-    width: 100%;
-}
-
 /*--------CSS-PERSO--------*/
 
 .bg-custom-red {
     background-color: #870000;
 }
 
+.bg-custom-gray {
+    background-color: #9b9b9b;
+}
+
 .text-custom-color {
-    color: #FFFFFF;
+    color: #eff7cf;
 }
 
 /*--------NAVBAR--------*/
@@ -17,5 +17,20 @@
 #logonavbar {
     width: 120px;
     height: 75px;
+}
+
+/*--------PIZZAS--------*/
+
+#pizzas {
+    background-color: #eff7cf;
+}
+
+.image-card {
+    width: auto;
+    height: 250px;
+}
+
+p {
+    font-size: 1.5em;
 }
 
