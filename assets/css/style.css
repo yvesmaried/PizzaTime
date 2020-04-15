@@ -1,0 +1,21 @@
+#fullsite {
+    width: 100%;
+}
+
+/*--------CSS-PERSO--------*/
+
+.bg-custom-red {
+    background-color: #870000;
+}
+
+.text-custom-color {
+    color: #FFFFFF;
+}
+
+/*--------NAVBAR--------*/
+
+#logonavbar {
+    width: 120px;
+    height: 75px;
+}
+
