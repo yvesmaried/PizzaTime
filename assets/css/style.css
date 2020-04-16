@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*--------CSS-PERSO--------*/
 
 .bg-custom-red {
@@ -5,18 +9,41 @@
 }
 
 .bg-custom-gray {
-    background-color: #9b9b9b;
+    background-color: #b09e99;
+}
+
+.bg-custom-yellow {
+    background-color: #eff7cf;
 }
 
 .text-custom-color {
     color: #eff7cf;
 }
 
+.text-custom-red {
+    color: #870000;
+}
+
 /*--------NAVBAR--------*/
 
+.nav-link:hover {
+    border-bottom: 0.0625em solid #eff7cf;
+    color: #eff7cf;
+}
+
 #logonavbar {
-    width: 120px;
-    height: 75px;
+    width: 7.5em;
+    height: 4.6875em;
+}
+
+.nav-pills:enabled {
+    color: #eff7cf;
+}
+
+/*--------HEADER--------*/
+
+#imagehome {
+    height: auto;
 }
 
 /*--------PIZZAS--------*/
@@ -27,25 +54,37 @@
 
 .image-card {
     width: auto;
-    height: 250px;
+    height: 15.625em;
 }
 
 p {
     font-size: 1.5em;
 }
 
-#imagehome {
-    height: auto;
+.card {
+    border: 0.125em solid #870000;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.parallax {
-    background-image: url("../img/dough-943245_1920.jpg");
-    height: 15em;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.card:hover {
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
+.cardsbutton:hover {
+    background-color: #eff7cf;
+    color: #870000;
+    border: 0.0625em solid #870000;
+}
+
+/*--------FOOTER--------*/
 
 #footerbg {
     background-color: #870000;
@@ -64,3 +103,16 @@ p {
 #formfooter {
     margin-top: 2em;
 }
+
+/*--------PARALLAX--------*/
+
+.parallax {
+    background-image: url("../img/dough-943245_1920.jpg");
+    height: 15em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
